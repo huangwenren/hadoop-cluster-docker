@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # the default node number is 3
+# ${var:-word}	如果变量 var 为空或已被删除(unset)，那么返回 word，但不改变 var 的值。
 N=${1:-3}
 
 
