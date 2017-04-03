@@ -2,7 +2,7 @@
 
 # N is the node number of hadoop cluster
 N=$1
-
+# $# 代表参数的个数
 if [ $# = 0 ]
 then
 	echo "Please specify the node number of hadoop cluster!"
